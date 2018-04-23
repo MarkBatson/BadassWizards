@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Badass Wizards</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 class="title">Badass Wizards</h1>
+
+    <div><button onclick="newScenario()">Random Scenario</button></div>
+
+    <p id="scenario"></p>
+
+    <!--
+    <div id="thresholds" class="flex">
+      <button value="bust" onclick="outcome(this)">Bust</button>
+      <button value="fail" onclick="outcome(this)">1-6</button>
+      <button value="average" onclick="outcome(this)">7-11</button>
+      <button value="win" onclick="outcome(this)">12-15</button>
+      <button value="epic" onclick="outcome(this)">16+</button>
+    </div>
+  -->
+    <h2 id="enterNumber">Enter Number</h2>
+    <div id="thresholds" class="flex">
+      <input class="input" type="text" maxlength="2" id="roll">
+      <button class="button" value="none" onclick="outcome(this)">Submit</button>
+      <button class="button" id="bust" value="bust" onclick="outcome(this)">Bust</button>
+    </div>
+
+    <p id="outcome"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>

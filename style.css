@@ -1,0 +1,95 @@
+body {
+  margin: 0px;
+  width: 100%;
+  font-family: artifika;
+  position: relative;
+  z-index: 0;
+  background-color: #F1E9D2;
+}
+a {
+  color: inherit;
+  outline: inherit;
+  text-decoration: inherit;
+}
+
+h1 {
+  text-align: center;
+  font-family: Badass Typography;
+  font-weight: normal;
+  font-size: 135px;
+  margin: 26px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  display: none;
+}
+
+div {
+  margin: auto;
+  text-align: center;
+}
+
+p {
+  width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+button{
+  background-color: #004d00; /* Dark Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s;
+  font-family: artifika;
+}
+button:hover {
+  background-color: #008000;
+}
+.button {
+  padding: 10px;
+}
+
+.flex {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  margin: auto;
+  text-align: center;
+  display: none;
+}
+.input {
+  width: 40px;
+  height: 40px;
+  font-size: 28px;
+  margin-right: 10px;
+}
+
+#bust {
+  margin-left: 10px;
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 75px;
+  }
+  p {
+    width: 400px;
+  }
+  button {
+    padding: 20px;
+  }
+}

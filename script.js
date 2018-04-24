@@ -200,8 +200,11 @@ function newScenario() {
   document.getElementById("enterNumber").style.display = "block";
   document.getElementById("outcome").innerHTML = "";
 
-  // Remove that scenario
-  scenarios.splice(random, 1);
+  if(document.getElementById("sumbit").disabled == true) {
+    document.getElementById("sumbit").disabled = false;
+    document.getElementById("bust").disabled = false;
+  }
+
 }
 
 
@@ -240,4 +243,8 @@ function outcome(threshold) {
     document.getElementById("outcome").innerHTML = scenarios[random].threshold5;
   }
   */
+  // Remove that scenario
+  document.getElementById("sumbit").disabled = true;
+  document.getElementById("bust").disabled = true;
+  scenarios.splice(random, 1);
 }

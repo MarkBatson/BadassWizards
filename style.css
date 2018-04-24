@@ -24,7 +24,7 @@ a {
 
 h1 {
   text-align: center;
-  font-family: BadassTypography;
+  font-family: BadassTypography, sans-serif;
   font-weight: normal;
   font-size: 135px;
   margin: 26px;

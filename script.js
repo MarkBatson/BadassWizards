@@ -186,6 +186,9 @@ var random;
 
 function newScenario() {
 
+  // Remove the last scenario
+  scenarios.splice(random, 1);
+
   // refresh the page if all scenarios have been seen
   if(scenarios.length == 0) {
     location.reload();
@@ -199,11 +202,6 @@ function newScenario() {
   document.getElementById("thresholds").style.display = "flex";
   document.getElementById("enterNumber").style.display = "block";
   document.getElementById("outcome").innerHTML = "";
-
-  if(document.getElementById("sumbit").disabled == true) {
-    document.getElementById("sumbit").disabled = false;
-    document.getElementById("bust").disabled = false;
-  }
 
 }
 
@@ -243,8 +241,4 @@ function outcome(threshold) {
     document.getElementById("outcome").innerHTML = scenarios[random].threshold5;
   }
   */
-  // Remove that scenario
-  document.getElementById("sumbit").disabled = true;
-  document.getElementById("bust").disabled = true;
-  scenarios.splice(random, 1);
 }

@@ -82,12 +82,12 @@ form {
   margin-left: 10px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 850px) {
   h1 {
     font-size: 75px;
   }
   p {
-    width: 400px;
+    width: 350px;
   }
   button {
     padding: 20px;

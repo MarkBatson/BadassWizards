@@ -22,7 +22,7 @@
   -->
     <h2 id="enterNumber">Enter Number</h2>
     <div id="thresholds" class="flex">
-      <input class="input" type="text" maxlength="2" id="roll">
+      <input onfocus="this.value=''" class="input" type="number" maxlength="2" id="roll">
       <button class="button" id="submit" value="none" onclick="outcome(this)">Submit</button>
       <button class="button" id="bust" value="bust" onclick="outcome(this)">Bust</button>
     </div>

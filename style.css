@@ -88,6 +88,12 @@ form {
   margin-right: 10px;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 #bust {
   margin-left: 10px;
 }

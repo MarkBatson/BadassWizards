@@ -195,7 +195,7 @@ function newScenario() {
   }
 
   // Get a random number
-  random = Math.floor(Math.random() * scenarios.length);
+  random = Math.floor(Math.random() * scenarios.length)-1;
 
   // Display the text of that random number
   document.getElementById("scenario").innerHTML = scenarios[random].description;

@@ -13,12 +13,12 @@ class Scenario {
 var scenarios = [];
 
 var scenario = new Scenario(
-  "You find yourself at a carnival! As you wait in line, a man in a top hat pulls you aside and whispers in your ear: “Step right up to the Wheel of Fun! Spin it right and you might win some, spin it wrong and your blood will run…”"
+  "You find yourself at a carnival! As you wait in line, a man in a top hat pulls you aside and whispers in your ear, “Step right up to the Wheel of Fun! Spin it right and you might win some, spin it wrong and your blood will run…”"
   ,"The spinner lands on a small sliver of black. The man smiles as you sink into the ground, screams filling your ears from every direction. <i>Lose 2 points</i>"
   ,"The spinner lands on a blank section and the world begins to fade. When you wake up, you’re back in line where you started. <i>You get nothing</i>"
-  ,"You win a prize! A big hug- as you feel the man’s embrace, you don’t feel lonely anymore <i>Earn 3 points</i>"
+  ,"You win a prize! A big hug. As you feel the man’s embrace, you don’t feel lonely anymore <i>Earn 3 points</i>"
   ,"You win a prize! An icecream cone that starts screaming the moment you take a bite <i>Obtain item number 1</i>"
-  ,"The spinner lands on an infinitely small sliver of gold leaf. The man disappears in an instant, leaving behind his top hat. As you put it on, your mind is flooded with the ancient secrets of the earth- things mankind has never known. <i>Earn 4 points and item number 2</i>"
+  ,"The spinner lands on an infinitely small sliver of gold leaf. The man disappears in an instant, leaving behind his top hat. As you put it on, your mind is flooded with the ancient secrets of the earth, things mankind has never known. <i>Earn 4 points and item number 2</i>"
 );
 scenarios.push(scenario);
 
@@ -26,19 +26,19 @@ scenario = new Scenario(
   "You find yourself in small damp room. In front of you is a mysterious black door made of rotting wood. You grip the doorknob and begin to turn it."
   ,"The door opens wide and you come face to face with the emptiness of your own soul. Something in you prompts you to step forward. You will not emerge for many years. <i>Lose 2 points</i>"
   ,"Despite your best efforts, the door won’t budge. <i>You get nothing</i>"
-  ,"The door opens and you find a small bathroom. A man is sitting on the toilet crying, but looks up when he hears you. He explains that he ran out of toilet paper 15 years ago, but the door never opened until now. You offer him some cloth, but quickly shut the door when he attempts to stand up and hug you. As you walk away, you hear him start to panic when he realizes the door is locked again. <i>Earn 2 points</i>"
+  ,"The door opens and you find a small bathroom. A man is sitting on the toilet crying, but looks up when he hears you. He explains how he ran out of toilet paper 15 years ago, but the door never opened until now. You offer him some cloth, but quickly shut the door when he attempts to stand up and hug you. As you walk away, you hear him start to panic when he realizes the door is locked again. <i>Earn 2 points</i>"
   ,"You feel the door open from the other side. An old woman smiles knowingly and hands you a fully loaded handgun before closing it again. <i>Obtain item number 3</i>"
-  ,"The door opens to a crowd of thousands chanting your name. A royal attendant approaches you and informs you that you are their long awaited king. You accept your kingship and the crowd erupts in tumultuous applause. <i>Earn points and item number 4</i>"
+  ,"The door opens to a crowd of thousands chanting your name. A royal attendant approaches you and informs you that you are their long awaited king. You accept your kingship and the crowd erupts in tumultuous applause. <i>Earn 4 points and item number 4</i>"
 );
 scenarios.push(scenario);
 
 scenario = new Scenario(
   "You find yourself in a field surrounded by beautiful little butterflies flitting left and right."
   ,"You hear a dripping sound and look down as your hand begins to erode. The poisonous butterflies envelop you and consume what’s left of your fingers. <i>Lose 2 points</i>"
-  ,"he beauty of the butterflies inspires you to follow your heart… right into the Forest of No Return, where you spend the next 5 weeks surviving on boiled urine and tree grubs. <i>Lose 1 point</i>"
+  ,"The beauty of the butterflies inspires you to follow your heart… right into the Forest of No Return, where you spend the next 5 weeks surviving on boiled urine and tree grubs. <i>You get nothing</i>"
   ,"A voice calls to you from across the field. You run towards it and find a butterfly prophet that warns you to flee the coming wrath of the insects upon mankind. You take his advice very seriously. <i>Earn 2 points</i>"
   ,"You begin shoving your pockets full of them. Butterfly pie is a delicacy in every known universe. <i>Obtain item number 5</i>"
-  ,"A strange feeling comes over you. You shed your clothes and wings emerge from your back. All at once, you are flying. As the warm breeze kisses your naked skin, you realize this is where you have always belonged- among the majestic herd. <i>Earn 5 points and item number 6</i>"
+  ,"A strange feeling comes over you. You shed your clothes and wings emerge from your back. All at once, you are flying. As the warm breeze kisses your naked skin, you realize this is where you have always belonged, among the majestic herd. <i>Earn 4 points and item number 6</i>"
 );
 scenarios.push(scenario);
 
@@ -48,7 +48,7 @@ scenario = new Scenario(
   ,"You attempt to conjure a weapon but your mind wanders, instead conjuring your high school crush. The Orcs are overcome with feelings they’ve never had before, and as they begin to process what love really means, you run away. <i>You get nothing</i>"
   ,"You use a spell to make the orcs forget their hostility and instead begin a meaningful relationship with you. You play a few games of blackjack together, but don’t end up with much. <i>Earn 2 points</i>"
   ,"You conjure a sword from thin air and slay the orcs with ease. While looting the bodies you find a gold ring with strange script written on the inside band. It’s obviously not worth very much, but the local pawn shop owner happily pays double your asking price. What a sucker. <i>Earn 3 points</i>"
-  ,"You decide to capitalize on the situation and begin explaining the wonderful benefits of VitaBoost to the orcs, convincing them they can be millionaires just by sharing the product with their friends and family. Soon, all of Mordor is living healthy, active lifestyles, and you plan on expanding in the coming months to create a strong market presence in the Shire as well. <i>Your opponents are sold on the VitaBoost Trend, take 3 points from the player of your choice. Then, if there’s more than 2 players, they choose to take 2 points from another player, and that player takes 1 point from another player.</i>"
+  ,"You decide to capitalize on the situation and begin explaining the wonderful benefits of VitaBoost to the orcs, convincing them they can be millionaires just by sharing the product with their friends and family. Soon, all of Mordor is living healthy, active lifestyles, and you plan on expanding your market presence in the Shire as well. <i>Your opponents are sold on the VitaBoost Trend, take 3 points from the player of your choice. Then, if there’s more than 2 players, they choose to take 2 points from another player, and that player takes 1 point from another player.</i>"
 );
 scenarios.push(scenario);
 
@@ -63,7 +63,7 @@ scenario = new Scenario(
 scenarios.push(scenario);
 
 scenario = new Scenario(
-  "You find yourself in a dark cell surrounded by rats. You hear a voice from the corner say, “It’s too dangerous to go alone, take this.”"
+  "You find yourself in a dark cell surrounded by rats. You hear a voice from the corner say, “It’s dangerous to go alone, take this.”"
   ,"The old man tries to hand you a sword, but slips and stabs you with it. You scream in agony and the man begins to sob. <i>Lose 2 points</i>"
   ,"The old man hands you a large rat and smiles. You smile back out of pity. <i>You get nothing</i>"
   ,"The old man hands you a small green outfit seemingly designed for a child. You cannot possibly fit, but he won’t stop staring until you try it on. <i>Earn 2 points</i>"
@@ -117,7 +117,7 @@ scenario = new Scenario(
   ,"You walk on stage and see a crowd of hundreds of people. You are petrified with fear. The unappeased crowd starts booing intensely. You always knew you were worthless. This is the most embarrassing moment of your entire life. <i>Lose 2 points</i>"
   ,"You decide to try your hand at stand up comedy, but the crowd turns on you when they realize how boring you are. Laughter only breaks out when people begin taking turns making fun of you. <i>You get nothing</i>"
   ,"You’ve been waiting for this moment. You proudly read from your poetry journal that you’ve been writing in for years. The crowd thinks your poetry’s pretty good, but not as good as that one slam poetry guy. You get second place. <i>Earn 2 points</i>"
-  ,"Using your wizard powers you entertain the crowd with a magic show unlike any they’ve ever seen. Disappearing birds, playing card tricks, summoning the souls of the damned- the whole nine yards. You win the talent competition in a landslide. <i>Earn 4 points</i>"
+  ,"Using your wizard powers you entertain the crowd with a magic show unlike any they’ve ever seen. Disappearing birds, playing card tricks, summoning the souls of the damned, the whole nine yards. You win the talent competition in a landslide. <i>Earn 4 points</i>"
   ,"You walk on stage and conjure an electric guitar. The crowd is stunned as you shred so hard that you literally tear the roof off. The performance that night propels you to international stardom. <i>Earn 4 points and item 14</i>"
 );
 scenarios.push(scenario);
@@ -153,12 +153,12 @@ scenario = new Scenario(
 scenarios.push(scenario);
 
 scenario = new Scenario(
-  "You find yourself on some sort of mysterious alien spacecraft. You find the nearest door and enter a room full of strange eggs."
+  "You find yourself on some sort of mysterious alien spacecraft. You look down ro find the room is full of strange eggs."
   ,"You choose to investigate an egg, but as soon as you touch it something jumps out and latches onto your face. It eventually falls off, but you don’t feel so hot… <i>Lose 1 point now and 1 point every turn until you role a 6 with any of your dice</i>"
   ,"You briefly entertain the thought of breaking open one of the eggs. A small part of you really wants to know if there’s alien chickens in there, and if so, what do they taste like? You eventually come to your senses and decide against it. <i>You get nothing</i>"
   ,"You whip out your flamethrower, find a metal surface, and decide to make an omelette with the large glowing eggs. Sure, the guttural screams you heard as you cooked them may be cause for concern, but right now, all you can think about is just how tasty they’d be with a little alien sausage. <i>Earn 3 points</i>"
   ,"You carefully take samples of the eggs and return to your lab to analyze them. After weeks of studying their unique properties, you finally figure out how to use them to genetically engineer your very own alien warrior... but more importantly, your very own best friend. <i>Draw item number 18</i>"
-  ,"You arrive just in time to witness the mass hatching of a long-headed alien species. Because you are the first thing they see, you become the matriarch of an entire race- commanding your horde of slimy children across the galaxy, doing as you see fit. <i>Earn 4 points and item number 19</i>"
+  ,"You arrive just in time to witness the mass hatching of the alien species. Because you are the first thing they see, you become the matriarch of an entire race, commanding your horde of slimy children across the galaxy, doing as you see fit. <i>Earn 4 points and item number 19</i>"
 );
 scenarios.push(scenario);
 

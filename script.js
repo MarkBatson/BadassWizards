@@ -182,12 +182,14 @@ scenario = new Scenario(
 );
 scenarios.push(scenario);
 
-var random;
+var random = -1;
 
 function newScenario() {
 
   // Remove the last scenario
-  scenarios.splice(random, 1);
+  if (random != -1) {
+    scenarios.splice(random, 1);
+  }
 
   // refresh the page if all scenarios have been seen
   if(scenarios.length == 0) {
@@ -195,7 +197,7 @@ function newScenario() {
   }
 
   // Get a random number
-  random = Math.floor(Math.random() * scenarios.length)-1;
+  random = Math.floor(Math.random() * scenarios.length);
 
   // Display the text of that random number
   document.getElementById("scenario").innerHTML = scenarios[random].description;
